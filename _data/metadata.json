@@ -1,0 +1,14 @@
+{
+    "title": "Herman Melville's Moby Dick: A Survival Guide to the Twenty First Century",
+    "url": "https://mobydick.jamesdrever.co.uk",
+    "description": "Technology, nature and some other stuff",
+    "feed": {
+      "subtitle": "Not yet implemented",
+      "filename": "feed.xml",
+      "path": "/rss/feed.xml",
+      "id": "https://mobydick.jamesdrever.co.uk"
+    },
+    "author": {
+      "name": "James Drever"
+    }
+  }

@@ -1,0 +1,47 @@
+body {
+    font-family: proxima-nova,"Helvetica Neue",Arial,Helvetica,serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+nav {
+	border-bottom: thick solid #808080;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #eee;
+	font-size:0.8em;
+	margin:0em;
+  }
+  
+  nav ul li {
+	display: inline;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  nav ul li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+  }
+  
+
+
+main
+{
+	display: block;
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+p 
+{
+	margin-bottom: 15px;
+}
+h1
+{
+	line-height:1.1em;
+}

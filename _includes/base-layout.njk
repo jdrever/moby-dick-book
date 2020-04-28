@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ metadata.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="James Drever">
+<link rel="alternate" type="application/rss+xml" href="feed.rss" title="RSS feed">
+<script type="f475e4b7d69cc723db848117-text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-21543386-1']);
+            _gaq.push(['_setDomainName', 'jamesdrever.co.uk']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+<link rel="stylesheet" type="text/css" href="/css/moby-dick-style.css">
+</head>
+<body>
+<header>
+<nav>
+  <b>{{ metadata.title }}</b>
+  {% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+  
+  <ul>
+{%- for entry in breadcrumbPages %}
+  <li>
+    {% if entry.url != page.url %} 
+    <a href="{{ entry.url | url }}">
+    {% endif %}
+    {{ entry.title }}
+    {% if entry.url != page.url %} 
+    </a>
+    {% endif %}
+  </li>
+{%- endfor %}
+</ul>
+</nav>
+</header>
+
+
+<main>
+{{ content | safe }}
+</main>
+<hr />
+<footer>
+    <p class="buymeacoffee">This book will always be available for free online, but if you've found this useful
+        and would like to <a href="https://www.buymeacoffee.com/xR0AKJTVU">buy me a coffee</a></a>, that would be very kind.</p>
+</footer>
+</html>
