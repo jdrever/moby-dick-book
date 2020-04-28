@@ -6,7 +6,6 @@ eleventyNavigation:
   key: "Maps"
   parent: "Home Page"
 ---
----
 
 I want to start with a story from Melville's life and fiction that illuminates one of the key themes of this book.
 
