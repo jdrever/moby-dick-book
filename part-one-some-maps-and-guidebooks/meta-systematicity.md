@@ -4,7 +4,7 @@ tags: "part"
 layout: "part-layout.njk"
 eleventyNavigation:
   key: "Meta-Systematicity"
-  parent: "Maps"
+  parent: "Some Maps and Guidebooks"
 ---
 
 Alfred Korzybski in Science and Sanity provides an overview of the profound shifts in perspective in the modernist period. Let's now take a wider view that includes what happened before and after that modernist period. David Chapman, in his hypertext book [Meanginess](https://meaningness.com/ "Meaningness Hypertext book") provides, in a ["A gigantic chart that explains absolutely everything"](https://meaningness.com/modes-chart), a tabular view of "the past, present, and future of culture, society, and our selves". Chapman is a meta-modernist, which as we'll find out means he doesn't believe in big and over-riding truths and therefore the title of his chart "mocks its unwieldiness and ambition". The chart really just tries to explain, in a way that I find interesting but also highly contestable, a seres of transitions in Western (and actually really mainly North American) culture: philosophical. cuitural and political systems that were functioning but have been to collapse in on themselves, through the counter-culture of the sixties, to the sub-cultures of the seventies, leading to the fragmentation and atomisation of our current culture, often describe as the condition of post-modernity. Chapman then goes onto suggest - in the optimisitc spirit that we might learn from what hasn't worked up until this present moment - what might happen next.

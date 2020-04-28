@@ -4,7 +4,7 @@ layout: base-layout.njk
 <h1>{{ title }}</h1>
 {{ content | safe}}
 
-<img src="{{ cover-image }}" alt="{{ cover-image-description }}"/>
+<img src="{{ cover_image }}" alt="{{ cover_image_description }}"/>
 
 <h2>Table of Contents</h2>
 {% set navPages = collections.all | eleventyNavigation %}

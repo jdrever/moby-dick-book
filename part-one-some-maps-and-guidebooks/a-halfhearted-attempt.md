@@ -3,8 +3,8 @@ title: "A Half-hearted Attempt to Explain Moby Dick in its Totality"
 tags: "part"
 layout: "part-layout.njk"
 eleventyNavigation:
-  key: "Half-Hearted"
-  parent: "Maps"
+  key: "A Half-Hearted Attempt to Explain Moby Dick"
+  parent: "Some Maps and Guidebooks"
 ---
 
 I want to illustrate that finding a complete and total map for understanding Moby Dick is impossible.

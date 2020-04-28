@@ -3,8 +3,8 @@ title: "Disconfirmations of existing theories"
 tags: "part"
 layout: "part-layout.njk"
 eleventyNavigation:
-  key: "Disconfirmations"
-  parent: "Maps"
+  key: "Disconfirmations of Existing Theories"
+  parent: "Some Maps and Guidebooks"
 ---
 
 **This section is unfinished: it may be just a placholder, or an initial draft of the intended content.**

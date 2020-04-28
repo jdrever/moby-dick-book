@@ -3,7 +3,7 @@ title: "Some maps and guidebooks"
 tags: "part"
 layout: "part-layout.njk"
 eleventyNavigation:
-  key: "Maps"
+  key: "Some Maps and Guidebooks"
   parent: "Home Page"
 ---
 

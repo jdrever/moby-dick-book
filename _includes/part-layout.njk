@@ -2,11 +2,28 @@
 layout: base-layout.njk
 ---
 <h1>{{ title }}</h1>
+{% if wip == true %}
+<p><b>This section is unfinished: it may be just a placholder, or an initial draft of the intended content.</b></p>
+{% endif %}
 
 {{ content | safe }}
 
 <hr />
-<p>You are in the <b>{{ eleventyNavigation.parent }}</b> section </p>
+  {% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+  
+  <p>
+{%- for entry in breadcrumbPages %}
+    {% if entry.url != page.url %} 
+    <a href="{{ entry.url | url }}">
+    {% endif %}
+    {{ entry.title }}
+    {% if entry.url != page.url %} 
+    </a> |
+    {% endif %}
+{%- endfor %}
+</p>
+
+<ul>
 {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.parent) %}
 {% macro renderNavListItem(entry) -%}
 <li>
@@ -29,3 +46,4 @@ layout: base-layout.njk
 <ul>
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </ul>
+<p><a href="/">Go back to the home page to see the full table of contents</a></p>
