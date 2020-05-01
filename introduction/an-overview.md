@@ -24,8 +24,7 @@ Just to provide an initial context, let's look a little more closely at what Cha
 
 >Passions take you out of yourself; they are about other people, situations, and things. That “aboutness” prompts you to connect with the world. 
 
-What Chapman is arguing for is an attitude that combines spaciousness and passion:
-
+What Chapman is arguing for is an attitude that brings spaciousness and passion together:
 
 >Spaciousness is functional only when wed with passion. Without passion, spaciousness produces only a stupid peacefulness. Spaciousness, by itself, is passive.
 
@@ -36,13 +35,13 @@ What Chapman is arguing for is an attitude that combines spaciousness and passio
 To make this country-simple from the start: one way of understanding Moby Dick is to see Ishamel, the narrator, as representing spaciousness, and Ahab, the central character, as passion.  It's not quite that simple, of course.  Nothing is.
 
 Reflecting that attitude of valuing both spaciousness and passion, this book is (or probably more accurately will be) structured in three parts:
-- **Some Maps and Guidebooks**: which presents some of the different ways of looking at Moby Dick, and at reality more generally, will insisting that none of the maps and guidebooks are 100% accurate.
+- **Some Maps and Guidebooks**: which presents some of the different ways of looking at Moby Dick, and at reality more generally, while insisting that none of the maps and guidebooks are 100% accurate.
 - **Spaciousness**: focuses on maps to explain Moby Dick that "suspend the process of meaning-making" and value "astonishment, perplexity, and groundlessness".  Some examples of those maps are:
   - Analyses of capitalism: taking apart the idea that capitalism is natural and unchanging
   - Analyses of colonialism: taking apart the idea that colonial values are natural and unchanging. 
   - Anaylses of gender: taking apart the idea that gender roles and patriarchal structure are natural and unchanging.
-  I guess you're probably seeing the pattern.  In fact, another approriate title for this section would be deconstruction - taking everything apart.  
+  I guess you're probably seeing the pattern.  In fact, another approriate title for this section would be Deconstruction - taking everything apart.  
   - And beneath all of this, we'll borrow from contemplative practices, and look at the idea that reality itself is groundless and that any attempt to describe it in final terms is futile. 
-- **Passion**: the final part, expresses the belief that spaciousness, though vital, is not sufficient, and needs to be wedded with passionate engagement with and connection to the world, alongside the recognition of groundlessness.  I don't want to introduce too many spoilers at this point, but Queequeg is pretty vital to this part of the book.
+- **Passion**: the final part, expresses the belief that spaciousness, though vital, is not sufficient, and needs to be wedded with passionate engagement with and connection to the world, alongside the recognition of groundlessness.  This section could also be titled Reconstruction, or putting things back together.  I don't want to introduce too many spoilers at this point, but Queequeg is pretty vital to this part of the book.
 
 Hopefully this has given you a sense of what is to come, rather than just telling you the whole story.  So I'll continue. In Some Maps and Guidebooks, we'll look at some very different perspectives on what Moby Dick is about, and introduce the concept of the Map and the Territory that is another vital part of this book.
