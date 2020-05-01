@@ -32,10 +32,3 @@ Moran goes on to imagine Melville, a man so apparently out of step with his own 
 _And all you could do was imagine it, and write it in your books, and then hide inside those books, and come talk to me, a hundred years later. That is where you live. A book is a beautiful, paper mausoleum, or tomb, in which to store ideas… to keep the bones of your thoughts in one place, for all time. I just want to say—“Hello. We can hear you. The words survived.”_
 
 And this sense of Melville speaking to us across temporal and cultural divides, prenaturally aware of what was to come, is very much what I'm trying to express here. But I also need to emphasise the darker aspects of Melville's precognition - the sense in which the world in which we live in is the inevitable and terrible fulfillment of the world he lived in. And to suggest ways in which the "bones" of his thoughts littered in the "tomb" of Moby Dick are worth examining we try to work out what the hell to do next.
-
-In his online book, Vividness, David Chapman argues for the importance of an attitude, which he calls "spacious passion", that he claims is the key to understanding Buddhist tantra. This attitude, I'm going to argue, is the key to understanding Moby Dick, and the key to understanding Moby Dick as a survival guide. There - I've said it now, and you can't stop reading if you want. The rest of this book will just be a painstaking unpicking of exactly what that means.
-
-Assuming you're still with me, I'll continue. In what remains of this introduction, I want to do two things:
-
-*   Lay out some of the key themes of Moby Dick, and introduce the idea that they have actually relate to some of the challenges that we currently face.
-*   Introduce some of the different ways I'll be looking at Moby Dick
