@@ -41,7 +41,7 @@ Reflecting that attitude of valuing both spaciousness and passion, this book is 
   - Analyses of colonialism: taking apart the idea that colonial values are natural and unchanging. 
   - Anaylses of gender: taking apart the idea that gender roles and patriarchal structure are natural and unchanging.
   I guess you're probably seeing the pattern.  In fact, another approriate title for this section would be Deconstruction - taking everything apart.  
-  - And beneath all of this, we'll borrow from contemplative practices, and look at the idea that reality itself is groundless and that any attempt to describe it in final terms is futile.  They'll be nihilism, shadow selves, emptiness.  You'll love it.
+  - And beneath all of this, we'll borrow from contemplative practices, and look at the idea that reality itself is groundless and that any attempt to describe it in final terms is futile.  They'll be nihilism, shadow eating and emptiness.  You'll love it.
 - **Passion**: the final part, expresses the belief that spaciousness, though vital, is not sufficient, and needs to be wedded with passionate engagement with and connection to the world, alongside the recognition of groundlessness.  This section could also be titled Reconstruction, or putting things back together.  I don't want to introduce too many spoilers at this point, but Queequeg is pretty vital to this part of the book.
 
 Hopefully this has given you a sense of what is to come, rather than just telling you the whole story.  So I'll continue. In Some Maps and Guidebooks, we'll look at some very different perspectives on what Moby Dick is about, and introduce the concept of the Map and the Territory that is another vital part of this book.
