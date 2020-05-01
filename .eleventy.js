@@ -1,5 +1,7 @@
 
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const markdownIt = require("markdown-it");
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images/");
@@ -16,17 +18,22 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-    let markdownIt = require("markdown-it");
-    let markdownItFootnote = require("markdown-it-footnote");
-    let markdownItOpts = {
-      html: true,
-      linkify: true,
-      typographer: true
-    };
-    const markdownEngine = markdownIt(markdownItOpts);
-    markdownEngine.use(markdownItFootnote);
-    eleventyConfig.setLibrary("md", markdownEngine);
+    eleventyConfig.addPairedShortcode("reference", function(description,name,url) {
+      return `<section class="reference">
+  <a href="${url}">${name}</a>
+  <p>${description}</p>
+  </section>`;
+    });
 
+
+    let markdownIt = require("markdown-it");
+    let markdownItFootnotes = require("markdown-it-footnote");
+    let options = {
+      html: true
+    };
+    let markdownLib = markdownIt(options).use(markdownItFootnotes);
+    
+    eleventyConfig.setLibrary("md", markdownLib);
     
   
   
@@ -43,7 +50,7 @@ module.exports = function(eleventyConfig) {
       // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
       // This is only used for URLs (it does not affect your file structure)
       pathPrefix: "/",
-      markdownTemplateEngine: false,
+      markdownTemplateEngine: "njk",
       htmlTemplateEngine: "njk",
       dataTemplateEngine: "njk",
       passthroughFileCopy: true,

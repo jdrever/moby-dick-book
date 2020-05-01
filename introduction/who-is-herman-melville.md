@@ -15,6 +15,10 @@ In 1839, Melville joined a merchant ship sailing from New York to Liverpool, and
 
 After two successful partly auto-biographical novels, Typee (1846) and Omoo (1847) based on his adventures in the South Pacific, Melville's work was generally not well received in his own time. Mardi (1849) was a philopshical adventure set in the South Seas. Reburn (1849) fictionalised Melville's trip to Liverpool in 1839. Moby Dick (1852) is generally considered his masterpiece, but was not financially successful. After Moby Dick came the psychologically messy domestic drama Pierre (1852) and the Confidence Man (1857). From here, Melville turned to poetry, writing Battle Pieces (1865), centred on the American Civil War, and Clarel: A Poem and Pilgrimage in the Holy Land (1876).
 
+{% reference "The Wikipedia entry on Herman Melville", "https://en.wikipedia.org/wiki/Herman_Melville" %}
+gives a good introduction to Melville.
+{% endreference %}
+
 <aside>
 - [The Wikipedia entry on Herman Melville](https://en.wikipedia.org/wiki/Herman_Melville) gives a good introduction to Melville.
 </aside>
