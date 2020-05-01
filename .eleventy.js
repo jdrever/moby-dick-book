@@ -18,15 +18,22 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+    eleventyConfig.addPairedShortcode("references", function(content) {
+      return `<h2>References</h2>
+  <section><ul>${content}
+  </ul></section>`;
+    });
+
+
     eleventyConfig.addPairedShortcode("reference", function(description,name,url) {
       return `<section class="reference">
-  <a href="${url}">${name}</a>
-  <p>${description}</p>
+  <li><a href="${url}">${name}</a>
+  &nbsp; ${description}</li>
   </section>`;
     });
 
     eleventyConfig.addPairedShortcode("reflection", function(content) {
-      return `<article class="section-reflection">
+      return `<h2>Reflections</h2><article class="section-reflection">
   ${content}
   </article>`;
     });
