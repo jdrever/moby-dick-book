@@ -29,10 +29,12 @@ layout: base-layout.njk
 <li>
     {% if entry.url != page.url %} 
     <a href="{{ entry.url | url }}">
+    {% else %} <b>
     {% endif %}
     {{ entry.title }}
     {% if entry.url != page.url %} 
     </a>
+    {% else %} << You are here </b>
     {% endif %}
 </li>
 {%- if entry.children.length -%}

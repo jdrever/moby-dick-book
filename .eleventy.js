@@ -26,6 +26,8 @@ module.exports = function(eleventyConfig) {
     const markdownEngine = markdownIt(markdownItOpts);
     markdownEngine.use(markdownItFootnote);
     eleventyConfig.setLibrary("md", markdownEngine);
+
+    
   
   
     return {
@@ -41,7 +43,7 @@ module.exports = function(eleventyConfig) {
       // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
       // This is only used for URLs (it does not affect your file structure)
       pathPrefix: "/",
-      markdownTemplateEngine: "njk",
+      markdownTemplateEngine: false,
       htmlTemplateEngine: "njk",
       dataTemplateEngine: "njk",
       passthroughFileCopy: true,
@@ -51,6 +53,7 @@ module.exports = function(eleventyConfig) {
         data: "_data",
         output: "_site"
       }
+      
 
   };
 }
