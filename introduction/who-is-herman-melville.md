@@ -30,11 +30,11 @@ And this Melville myth I'm drawing on was always a construction, built partly fo
 
 To quote Susan Howe:
 
-I am drawn toward the disciplines of history and literary criticism but in the dawning distance a dark wall of rule supports the structure of every letter, record, transcript: every proof of authority and power
+>I am drawn toward the disciplines of history and literary criticism but in the dawning distance a dark wall of rule supports the structure of every letter, record, transcript: every proof of authority and power
 
 And a brief contextual section on a writer is subject to just the same "dark wall of rule". Howe continues:
 
-I know records are compiled by winners, and scholarship is in collusion with Civil Government. I know this and go on searching for love's unfolding through all the paper in all the libraries I come to. (Susan Howe, The Birth Mark)
+>I know records are compiled by winners, and scholarship is in collusion with Civil Government. I know this and go on searching for love's unfolding through all the paper in all the libraries I come to. (Susan Howe, The Birth Mark)
 
 {% endreflection %}
 
