@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Why Does Moby Dick Matter?"
   parent: "Introduction"
+  order: 4
 ---
 
 Moby Dick has the slightly dusty reputation of a classic text, sometimes eulogised but rarely actually read. Caitlin Moran's perspective is I'm sure fairly typical: "Moby Dick makes me sad that I hadn't read it earlier in my life - I'd always thought it was basically some dull Hemingway-esque novel about fishing, and eschewed it on that basis." (How to Be Famous, Caitlin Moran) How can a long and meandering book about whaling published in 1851 have anything useful to say to a world defined by capitalism and overwhelmed by technology? How can a book with almost no female characters say anything of value to the 50% of the world's population that are almost entirely excluded from its pages?

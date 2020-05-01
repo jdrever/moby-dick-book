@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Who is Hermam Melville?"
   parent: "Introduction"
+  order: 3
 ---
 
 Herman Melville, who was born in 1819 and died in 1891 was an American writer who produced a series of novels, short stories and poems.

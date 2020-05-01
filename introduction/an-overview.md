@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "An Overview of What Follows"
   parent: "Introduction"
+  order: 5
 ---
 
 In his online book, Vividness, David Chapman argues for the importance of an attitude, which he calls "spacious passion", that he claims is the key to understanding Buddhist tantra. This attitude, I'm going to argue, is also a key to understanding Moby Dick, and the key to understanding Moby Dick as a survival guide. There - I've said it now, and you can't stop reading if you want. The rest of this book will just be a painstaking unpicking of exactly what that means.

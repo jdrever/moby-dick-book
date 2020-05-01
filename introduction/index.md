@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Introduction"
   parent: "Home Page"
+  order: 1
 ---
 I think Herman Melville's Moby Dick can be viewed as a survival guide to the twenty first century.
 

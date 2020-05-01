@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Some Statements of Intent"
   parent: "Introduction"
+  order: 2
 ---
 Before I start, here are some general statements of intent, particularly intentions about trying to make this book accessible to anyone who is interested:
 - This online version of the book will always be freely available</li>
