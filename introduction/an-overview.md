@@ -36,7 +36,7 @@ To make this country-simple from the start: one way of understanding Moby Dick i
 
 Reflecting that attitude of valuing both spaciousness and passion, this book is (or probably more accurately will be) structured in three parts:
 - **Some Maps and Guidebooks**: which presents some of the different ways of looking at Moby Dick, and at reality more generally, while insisting that none of the maps and guidebooks are 100% accurate.
-- **Spaciousness**: focuses on maps to explain Moby Dick that "suspend the process of meaning-making" and value "astonishment, perplexity, and groundlessness".  Some examples of those maps are:
+- **Spaciousness**: focuses on maps and guidebooks that explain the ways in Moby Dick suspends "the process of meaning-making" and values "astonishment, perplexity, and groundlessness".  Some examples of those maps are:
   - Analyses of capitalism: taking apart the idea that capitalism is natural and unchanging
   - Analyses of colonialism: taking apart the idea that colonial values are natural and unchanging. 
   - Anaylses of gender: taking apart the idea that gender roles and patriarchal structure are natural and unchanging.
