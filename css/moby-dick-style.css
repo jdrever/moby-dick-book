@@ -45,3 +45,50 @@ h1
 {
 	line-height:1.1em;
 }
+
+article.comment,article.section-comment,article.reflection,article.section-reflection
+{
+	margin:0.5em;
+	padding:0.5em;
+	color:darkred;
+	background-color:#F5F5F5;
+	border-radius:3%;
+}
+
+section.commentForm
+{
+	margin:1em;
+	padding:0.5em;
+	background-color:#F5F5F5;
+	border-radius:3%;
+}
+
+section.statusMessage
+{
+	margin:0.5em;
+	padding:0.5em;
+	color:darkred;
+	font-weight:bold;
+	background-color:#F5F5F5;
+	border-radius:3%;
+}
+
+article.comment p.datestamp,article.section-comment p.datestamp, section p.datestamp
+{
+	font-size:small;,
+}
+
+
+nav.breadcrumb
+{
+	font-size:0.8em;
+	border-bottom:none;
+}
+
+@media all and (max-width: 600px)
+{
+	section.commentForm
+	{
+		margin: 0.5em;
+	}
+}

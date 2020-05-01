@@ -25,6 +25,12 @@ module.exports = function(eleventyConfig) {
   </section>`;
     });
 
+    eleventyConfig.addPairedShortcode("reflection", function(content) {
+      return `<article class="section-reflection">
+  ${content}
+  </article>`;
+    });
+
 
     let markdownIt = require("markdown-it");
     let markdownItFootnotes = require("markdown-it-footnote");
