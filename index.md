@@ -1,7 +1,7 @@
 ---
 title: "Herman Melville's Moby Dick: A Survival Guide to the Twenty First Century"
 layout: "front-page-layout.njk"
-cover_image: "images/cover-small.jpg"
+cover_image: "images/cover-small.png"
 cover_image_description: "Old picture of a whale"
 eleventyNavigation:
   key: "Home Page"
