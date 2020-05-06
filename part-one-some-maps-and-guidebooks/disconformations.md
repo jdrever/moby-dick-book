@@ -2,13 +2,11 @@
 title: "Disconfirmations of existing theories"
 tags: "part"
 layout: "part-layout.njk"
+wip: true
 eleventyNavigation:
   key: "Disconfirmations of Existing Theories"
   parent: "Some Maps and Guidebooks"
 ---
-
-**This section is unfinished: it may be just a placholder, or an initial draft of the intended content.**
-
 Count Alfred Korzybski is now a largely forgotten figure, but his book Science and Sanity, first published in 1933, gives us a helpful way to discuss the extent of scientific upheaval that was beginning as Melville wrote Moby Dick and which would continue at pace in the centuries following. The phrase "the map is not the territory", which has been used widely and will be used here too, was first coined by Korzybski, though he is not often acknowledged as the source of the phrase.
 
 Korzybski's monumental project was to replace the "aristolelian system" of assumptions about reality, which he argued were implicit in our language, with a new system that incorporated scientific developments and used language in a way that reflected those developments.

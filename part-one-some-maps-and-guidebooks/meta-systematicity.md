@@ -2,6 +2,7 @@
 title: "Meta-Systematicity"
 tags: "part"
 layout: "part-layout.njk"
+wip: true
 eleventyNavigation:
   key: "Meta-Systematicity"
   parent: "Some Maps and Guidebooks"
