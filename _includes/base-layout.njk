@@ -32,10 +32,10 @@
   <body>
     <header>
       <div class="container-fluid bg-dark text-white p-1">
-        <b>{{ metadata.title }}</b>
+        <h1 class="display-5">{{ metadata.title }}</h1>
       </div>
       {% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
-      <div class="container-fluid bg-light p-1">
+      <div class="container-fluid bg-light p-1 border-bottom">
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
           <ol class="breadcrumb">
 
@@ -54,15 +54,21 @@
         </nav>
       </div>
     </header>
-    <div class="container-fluid my-4">
-    <main>
-      {{ content | safe }}
-    </main>
-    <hr/>
-    <footer>
-      <p class="buymeacoffee">This book will always be available for free online, but if you've found this useful
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto py-1 py-md-3">
+          <main>
+            {{ content | safe }}
+          </main>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light p-3 border-top">
+      <footer>
+        <p class="buymeacoffee">This book will always be available for free online, but if you've found this useful
         and would like to <a href="https://www.buymeacoffee.com/xR0AKJTVU">buy me a coffee</a>
-      </a>, that would be very kind.</p>
-  </footer>
-  </div>
+        , that would be very kind.</p>
+      </footer>
+    </div>
+  </body>
 </html>
