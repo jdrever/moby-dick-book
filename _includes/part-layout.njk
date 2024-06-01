@@ -34,7 +34,7 @@ layout: base-layout.njk
     {{ entry.title }}
     {% if entry.url != page.url %} 
     </a>
-    {% else %} << You are here </b>
+    {% else %}  <span style="font-weight:100;">&larr; You are here</span></b>
     {% endif %}
 </li>
 {%- if entry.children.length -%}
