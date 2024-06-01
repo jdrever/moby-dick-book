@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ metadata.title }}</title>
+    <title>Herman Melville&#39;s Moby Dick: A Survival Guide to the Twenty First Century</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="James Drever">
@@ -31,28 +31,97 @@
   </head>
   <body>
     <header>
-      {% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+      
       <div class="container-fluid bg-light p-1 border-bottom">
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
           <ol class="breadcrumb">
-
-            {%- for entry in breadcrumbPages %}
               <li class="breadcrumb-item">
-                {% if entry.url != page.url %}
-                  <a href="{{ entry.url | url }}">
-                  {% endif %}
-                  {{ entry.title }}
-                  {% if entry.url != page.url %}
+                
+                  <a href="/">
+                  
+                  Home
+                  
                   </a>
-                {% endif %}
+                
               </li>
-            {%- endfor %}
           </ol>
         </nav>
       </div>
     </header>
     <article class="flow">
-            {{ content | safe }}
+            <h1>Moby Dick is about ways of looking at the world</h1>
+
+
+<p>The quote about Narcissus in <em>Moby-Dick</em> by Herman Melville can be found in the first chapter, &quot;Loomings.&quot; It reads:</p>
+<p>&quot;Surely all this is not without meaning. And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned. But that same image, we ourselves see in all rivers and oceans. It is the image of the ungraspable phantom of life; and this is the key to it all&quot;</p>
+
+
+<hr />
+  
+  
+  <p>
+     
+    <a href="/">
+    
+    Home
+     
+    </a> |
+    
+</p>
+
+<ul>
+
+
+
+<ul><li>
+     
+    <a href="/introduction/">
+    
+    Introduction
+     
+    </a>
+    
+</li></li><li>
+     
+    <a href="/introduction/two-chapters/">
+    
+    The two chapters we are going to focus on
+     
+    </a>
+    
+</li></li><li>
+     
+    <a href="/introduction/capitalism/">
+    
+    Moby Dick is about capitalism
+     
+    </a>
+    
+</li></li><li>
+     
+    <a href="/introduction/gender/">
+    
+    Moby Dick is about gender
+     
+    </a>
+    
+</li></li><li>
+     <b>
+    
+    Moby Dick is about ways of looking at the world
+     << You are here </b>
+    
+</li></li><li>
+     
+    <a href="/introduction/uncertainty/">
+    
+    Moby Dick is about uncertainty and certainty
+     
+    </a>
+    
+</li></li></ul>
+<p><a href="/">Go back to the home page to see the full table of contents</a></p>
+
     </article>
     <div class="container-fluid bg-light p-3 border-top">
       <footer>
