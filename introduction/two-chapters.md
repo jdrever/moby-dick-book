@@ -19,12 +19,11 @@ One such "immense caravan" now lay before the Pequod.
 
 > at the distance of some two or three miles, and forming a great semicircle, embracing one half of the level horizon, a continuous chain of whale-jets were up-playing and sparkling in the noon-day air.
 
+What links the Grand Armada to the Final Chase?  There are a few themes:
 
-
-What links the Grand Armada to the Final Chase?
-Concentric circles
-Calm enchantment
-Life and death
-Creation and destruction
-Harpoon lines and umbilical cords
-Capitalist extraction from nature
+- Concentric circles
+- Calm enchantment
+- Life and death
+- Creation and destruction
+- Harpoon lines and umbilical cords
+- Capitalist extraction from nature
