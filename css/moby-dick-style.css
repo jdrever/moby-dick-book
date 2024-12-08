@@ -824,10 +824,6 @@ article, div.article-header {
   margin-inline: auto;
 }
 
-blockquote {
-  max-width: 50ch;
-}
-
 h1, .h1 {
   max-width: 20ch;
   margin-bottom: 0.5em;
