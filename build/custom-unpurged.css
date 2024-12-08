@@ -11063,7 +11063,7 @@ blockquote {
   -webkit-border-start: 0.3em solid;
   border-inline-start: 0.3em solid;
   font-style: italic;
-  font-size: var(--size-step-1);
+  font-size: var(--size-step-0);
 }
 
 code {
