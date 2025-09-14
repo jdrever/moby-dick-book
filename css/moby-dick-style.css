@@ -694,6 +694,14 @@ progress {
   margin-left: auto !important;
 }
 
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
 .p-1 {
   padding: 0.25rem !important;
 }
@@ -709,6 +717,10 @@ progress {
 .py-1 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 .text-wrap {

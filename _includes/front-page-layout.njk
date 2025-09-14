@@ -4,9 +4,10 @@ layout: base-layout.njk
 <h1>{{ title }}</h1>
 {{ content | safe}}
 
-<img src="{{ cover_image }}" alt="{{ cover_image_description }}"/>
-
-<h2>Table of Contents</h2>
+<div class="mx-auto p-2 text-center" style="width:400px;">
+    <img src="{{ cover_image }}" alt="{{ cover_image_description }}"/>
+    <h2 class="mt-2">Table of Contents</h2>
+</div>
 
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
@@ -14,12 +15,13 @@ layout: base-layout.njk
           <div class="card p-2 border rounded h-100">
               <div class="card-body">
                   <h5 class="card-title"><a href="{{ entry.url | url }}">{{ entry.title }}</a></h5>
-                  <p>{{ entry.desc }}
+                  <p>{{ entry.desc }}</p>
               </div>
           </div>
       </div>
 {%- endmacro %}
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+
 {%- for entry in navPages[0].children  %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </div>
