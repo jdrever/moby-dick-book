@@ -7,18 +7,19 @@ layout: base-layout.njk
 <img src="{{ cover_image }}" alt="{{ cover_image_description }}"/>
 
 <h2>Table of Contents</h2>
+
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
-  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-{%- if entry.children.length -%}
-  <ul>
-    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-  </ul>
-{%- endif -%}
-</li>
+    <div class="col">
+          <div class="card p-2 border rounded h-100">
+              <div class="card-body">
+                  <h5 class="card-title"><a href="{{ entry.url | url }}">{{ entry.title }}</a></h5>
+                  <p>{{ entry.desc }}
+              </div>
+          </div>
+      </div>
 {%- endmacro %}
 
-<ul>
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-</ul>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+{%- for entry in navPages[0].children  %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</div>

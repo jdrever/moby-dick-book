@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "The two chapters we are going to focus on"
   parent: "Home"
+  desc: "I'm going to write about the final chapter the Chase: Final Day. Everyone writes about the final chapter, of course, but I'm also going to write about an earlier chapter: the Grand Armada."
   order: 2
 ---
  I'm going to write about the final chapter the Chase: Final Day. 

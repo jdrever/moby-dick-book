@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Moby Dick is about gender"
   parent: "Home"
+  desc: "Moby Dick is famously a book about men.  There are barely any female characters.  Yet perhaps Moby Dick is all about gender."
   order: 4
 ---
 Moby Dick is a book about men. 

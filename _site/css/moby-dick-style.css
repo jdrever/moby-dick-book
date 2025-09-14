@@ -250,6 +250,12 @@ small, .small {
   font-size: 0.875em;
 }
 
+mark, .mark {
+  padding: 0.1875em;
+  color: var(--bs-highlight-color);
+  background-color: var(--bs-highlight-bg);
+}
+
 a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: underline;
@@ -524,11 +530,48 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+
+.col {
+  flex: 1 0 0%;
+}
+
+.row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.g-4 {
+  --bs-gutter-x: 1.5rem;
+}
+
+.g-4 {
+  --bs-gutter-y: 1.5rem;
+}
+
+@media (min-width: 576px) {
+
+  .row-cols-sm-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
 @media (min-width: 992px) {
+
+  .row-cols-lg-3 > * {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
 
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+  }
+}
+@media (min-width: 1400px) {
+
+  .row-cols-xxl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
   }
 }
 
@@ -573,7 +616,7 @@ progress {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(34, 62, 153, 0.25);
 }
- .nav-link:disabled {
+.nav-link.disabled, .nav-link:disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;
   cursor: default;
@@ -638,6 +681,10 @@ progress {
   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
+.h-100 {
+  height: 100% !important;
+}
+
 .flex-wrap {
   flex-wrap: wrap !important;
 }
@@ -649,6 +696,10 @@ progress {
 
 .p-1 {
   padding: 0.25rem !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
 }
 
 .p-3 {
@@ -681,6 +732,10 @@ progress {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.rounded {
+  border-radius: var(--bs-border-radius) !important;
 }
 
 .visible {
@@ -824,10 +879,6 @@ article, div.article-header {
   margin-inline: auto;
 }
 
-blockquote {
-  max-width: 50ch;
-}
-
 h1, .h1 {
   max-width: 20ch;
   margin-bottom: 0.5em;
@@ -901,7 +952,7 @@ blockquote {
   -webkit-border-start: 0.3em solid;
   border-inline-start: 0.3em solid;
   font-style: italic;
-  font-size: var(--size-step-1);
+  font-size: var(--size-step-0);
 }
 
 code {

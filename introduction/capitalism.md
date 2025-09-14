@@ -5,6 +5,7 @@ layout: "part-layout.njk"
 eleventyNavigation:
   key: "Moby Dick is about capitalism"
   parent: "Home"
+  desc: "It is not a radical approach to understand Moby Dick as a novel about capitalism.  But perhaps Moby Dick is just about capitalism."
   order: 3
 ---
 
